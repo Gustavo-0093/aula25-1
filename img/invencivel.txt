@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invencível</title>
+  <link rel="stylesheet" href="invencible.css" />
+</head>
+<body>
+  <header>
+    <h1>INVENCÍVEL</h1>
+  </header>
+  <section>
+    <h2>Galeria</h2>
+    <h3> </h3>
+    <div class="imagens-horizontais">
+      <img class="horizontal" src="markmal.jpg" alt="Mark Grayson" />
+      <img class="horizontal" src="markmen.jpg" alt="Omni-Man" />
+      <img class="horizontal" src="markmoicano.jpg" alt="Cecil" />
+      <img class="horizontal" src="markpano.webp" alt="Angstrom Levy" />
+      <img class="horizontal" src="marksdds.webp" alt="Robot" />
+    </div>
+    <h3> </h3>
+    <div class="imagens-verticais">
+      <img class="vertical" src="aura.jpg" alt="Aura" />
+      <img class="vertical" src="idreesheros.jpg" alt="Heróis" />
+      <img class="vertical" src="heshasme.jpg" alt="Personagem" />
+      <img class="vertical" src="imperadormark.jpg" alt="Imperador Mark" />
+      <img class="vertical" src="thragg.jpg" alt="Thragg" />
+      <img class="vertical" src="conquista.png" alt="Conquista" />
+      <img class="vertical" src="battlebeast.jpg" alt="Battle Beast" />
+    </div>
+  </section>
+  <section>
+    <h2>Personagens</h2>
+    <div class="personagem">
+      <img src="markfarmando aura.jpg" alt="Mark Grayson" />
+      <div class="personagem-texto">
+        <h3>Mark Grayson — Invencível</h3>
+        <p>Mark é filho do famoso herói Omni-Man e começa a desenvolver seus poderes na adolescência. Ele precisa equilibrar a vida de herói com a escola, os amigos e os relacionamentos enquanto descobre verdades perturbadoras sobre seu pai e sua herança alienígena Viltrumita.</p>
+      </div>
+    </div>
+    <div class="personagem invertido">
+      <img src="nolan2.jpg" alt="Omni-Man" />
+      <div class="personagem-texto">
+        <h3>Omni-Man — Nolan Grayson</h3>
+        <p>O herói mais poderoso da Terra e pai de Mark. Nolan parece o herói perfeito, mas esconde segredos sombrios sobre sua verdadeira missão no planeta. Sua revelação no final da primeira temporada chocou fãs do mundo inteiro e redefiniu a série.</p>
+      </div>
+    </div>
+    <div class="personagem">
+      <img src="aurapura.jpg" alt="Thragg" />
+      <div class="personagem-texto">
+        <h3>Grand Regent Thragg</h3>
+        <p>Líder supremo do Império Viltrumita e um dos guerreiros mais letais do universo. Thragg representa uma das maiores ameaças que Mark já enfrentou, com força e velocidade que rivalizam com qualquer herói. Frio, calculista e absolutamente implacável.</p>
+      </div>
+    </div>
+    <div class="personagem invertido">
+      <img src="battlebeast.jpg" alt="Battle Beast" />
+      <div class="personagem-texto">
+        <h3>Battle Beast</h3>
+        <p>Um dos lutadores mais brutais do universo, Battle Beast vive apenas para encontrar oponentes dignos de seu nível. Ele derrotou praticamente todos os heróis da Terra sem se esforçar, tornando-se um dos personagens mais temidos e aclamados da série.</p>
+      </div>
+    </div>
+    <div class="personagem">
+      <img src="conquest.jpg" alt="Conquista" />
+      <div class="personagem-texto">
+        <h3>Conquista</h3>
+        <p>Veterano Viltrumita enviado para testar Mark Grayson. Conquista é experiente, calculista e brutalmente eficiente em combate. Suas batalhas contra o Invencível estão entre as mais violentas e memoráveis de toda a série.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Vídeos</h2>
+    <div class="videos">
+      <video controls>
+        <source src="vídeo invencible.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo.
+      </video>
+      <iframe
+        src="https://www.youtube.com/embed/QvnTluSzq8s"
+        title="Invencível Temporada 4 – Trailer Oficial | Prime Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+  <section>
+    <h2>Formulário</h2>
+    <p class="form-descricao">Preencha abaixo para participar da comunidade de fãs!</p>
+    <form>
+      <label>Nome:</label><br />
+      <input type="text" name="nome" placeholder="Seu nome" /><br /><br />
+      <label>E-mail:</label><br />
+      <input type="email" name="email" placeholder="seu@email.com" /><br /><br />
+      <label>Senha:</label><br />
+      <input type="password" name="senha" placeholder="Sua senha" /><br /><br />
+      <label>Personagem favorito:</label><br />
+      <select name="personagem">
+        <option value="">Escolha...</option>
+        <option value="mark">Invencível</option>
+        <option value="omni">Omni-Man</option>
+        <option value="eve">Atom Eve</option>
+        <option value="robot">Robot</option>
+        <option value="thragg">Thragg</option>
+        <option value="battle beast">Battle Beast</option>
+      </select><br /><br />
+      <label>Mensagem:</label><br />
+      <textarea name="mensagem" placeholder="O que você acha da série?"></textarea><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2026 — Site sobre Invencível | Prime Video</p>
+  </footer>
+</body>
+</html>

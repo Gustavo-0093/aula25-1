@@ -1,0 +1,124 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header {
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #0a0a0a, #003399, #f5c400);
+}
+header h1 {
+  font-size: 3.5rem;
+  color: #f5c518;
+  margin: 0;
+}
+header p {
+  color: #ccc;
+  margin-top: 8px;
+}
+section {
+  padding: 25px 30px;
+  margin-bottom: 14px;
+  background: linear-gradient(90deg, #0a0a0a, #003399, #f5c400);
+}
+section h2 {
+  color: #f5c518;
+  padding-bottom: 6px;
+}
+section h3 {
+  color: #999;
+  font-weight: normal;
+  margin: 18px 0 8px;
+}
+.imagens-horizontais, .imagens-verticais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+img.horizontal, img.vertical,
+.personagem img {
+  object-fit: cover;
+}
+img.horizontal {
+  width: 300px;
+  height: 200px;
+}
+img.vertical {
+  width: 200px;
+  height: 320px;
+}
+.personagem {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+.personagem.invertido {
+  flex-direction: row-reverse;
+  border-left: none;
+  border-right: 4px solid #f5c518;
+}
+.personagem img {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+.personagem-texto h3 {
+  color: #f5c518;
+  margin-bottom: 8px;
+}
+.personagem-texto p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+.videos {
+  display: flex;
+  gap: 10px;
+  position: center;
+}
+video, iframe {
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin: 0 10px;
+}
+.form-descricao {
+  color: #aaa;
+  margin-bottom: 12px;
+}
+form {
+  max-width: 500px;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: #fff;
+}
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+button {
+  background: #1a6fd4;
+  color: #fff;
+  padding: 10px 28px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #f5c518;
+  color: #000;
+}
+footer {
+  background: #0a0a0a;
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
